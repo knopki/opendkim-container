@@ -2,7 +2,7 @@ FROM alpine:3.6
 
 LABEL name="opendkim" \
   version="2.10" \
-  release="2" \
+  release="3" \
   architecture="x86_64" \
   vendor="Sergey Korolev"
 
@@ -17,6 +17,6 @@ RUN \
 # root filesystem
 ADD rootfs /
 
-VOLUME [ "/etc/opendkim" ]
+VOLUME [ "/keys" ]
 EXPOSE 8891
 ENTRYPOINT [ "/init" ]
