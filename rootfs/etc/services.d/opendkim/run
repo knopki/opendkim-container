@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv sh
+
+mkdir -p /run/opendkim
+exec /usr/sbin/opendkim -f -l -p inet:8891

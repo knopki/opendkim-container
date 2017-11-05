@@ -1,0 +1,2 @@
+/var/run/opendkim true opendkim,100:101 0644 0755
+/etc/opendkim true opendkim,100:101 0644 0755
