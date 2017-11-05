@@ -2,7 +2,7 @@ FROM alpine:3.6
 
 LABEL name="opendkim" \
   version="2.10" \
-  release="1" \
+  release="2" \
   architecture="x86_64" \
   vendor="Sergey Korolev"
 
